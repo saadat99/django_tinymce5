@@ -122,7 +122,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = 'static/'
 
-# TINYMCE_JS_URL = STATIC_URL + 'tinymce/tinymce.min.js'
-# TINYMCE_DEFAULT_CONFIG = {
-#     'theme': "silver",
-# }
+TINYMCE_JS_URL = STATIC_URL + 'tinymce/tinymce.min.js'
+TINYMCE_DEFAULT_CONFIG = {
+    'theme': "silver",
+}
